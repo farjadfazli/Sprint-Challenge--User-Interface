@@ -132,15 +132,16 @@ footer {
     background: black;
 }
 
-bottom-footer bottom-nav {
+footer nav {
+    width: 60%;
     display: flex;
+    justify-content: space-between;
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
-    background-color: black;
 }
 
-bottom-footer bottom-nav a {
+footer nav a {
     color: white;
     text-decoration: none;
 }
@@ -150,12 +151,12 @@ img {
     justify-content: space-between;
 }
 
-header nav {
+header .top {
     display: inline-flex;
     justify-content: space-between;
 }
 
-header nav a {
+header .top a {
     padding: 40px;
     text-decoration: none;
     color: black;
